@@ -37,20 +37,21 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.sogan_chk = new System.Windows.Forms.CheckBox();
-            this.domates_chk = new System.Windows.Forms.CheckBox();
-            this.peynir_chk = new System.Windows.Forms.CheckBox();
-            this.ketcap_chk = new System.Windows.Forms.CheckBox();
-            this.tursu_chk = new System.Windows.Forms.CheckBox();
             this.mayonez_chk = new System.Windows.Forms.CheckBox();
+            this.tursu_chk = new System.Windows.Forms.CheckBox();
+            this.ketcap_chk = new System.Windows.Forms.CheckBox();
+            this.peynir_chk = new System.Windows.Forms.CheckBox();
+            this.domates_chk = new System.Windows.Forms.CheckBox();
+            this.sogan_chk = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_siparis = new System.Windows.Forms.Button();
             this.btn_hesap = new System.Windows.Forms.Button();
             this.list_siparisler = new System.Windows.Forms.ListBox();
+            this.numadet = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numadet)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -141,45 +142,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ekstralar";
             // 
-            // sogan_chk
+            // mayonez_chk
             // 
-            this.sogan_chk.AutoSize = true;
-            this.sogan_chk.Location = new System.Drawing.Point(6, 19);
-            this.sogan_chk.Name = "sogan_chk";
-            this.sogan_chk.Size = new System.Drawing.Size(57, 17);
-            this.sogan_chk.TabIndex = 8;
-            this.sogan_chk.Text = "Soğan";
-            this.sogan_chk.UseVisualStyleBackColor = true;
-            // 
-            // domates_chk
-            // 
-            this.domates_chk.AutoSize = true;
-            this.domates_chk.Location = new System.Drawing.Point(6, 64);
-            this.domates_chk.Name = "domates_chk";
-            this.domates_chk.Size = new System.Drawing.Size(68, 17);
-            this.domates_chk.TabIndex = 9;
-            this.domates_chk.Text = "Domates";
-            this.domates_chk.UseVisualStyleBackColor = true;
-            // 
-            // peynir_chk
-            // 
-            this.peynir_chk.AutoSize = true;
-            this.peynir_chk.Location = new System.Drawing.Point(153, 19);
-            this.peynir_chk.Name = "peynir_chk";
-            this.peynir_chk.Size = new System.Drawing.Size(55, 17);
-            this.peynir_chk.TabIndex = 10;
-            this.peynir_chk.Text = "Peynir";
-            this.peynir_chk.UseVisualStyleBackColor = true;
-            // 
-            // ketcap_chk
-            // 
-            this.ketcap_chk.AutoSize = true;
-            this.ketcap_chk.Location = new System.Drawing.Point(151, 64);
-            this.ketcap_chk.Name = "ketcap_chk";
-            this.ketcap_chk.Size = new System.Drawing.Size(60, 17);
-            this.ketcap_chk.TabIndex = 11;
-            this.ketcap_chk.Text = "Ketçap";
-            this.ketcap_chk.UseVisualStyleBackColor = true;
+            this.mayonez_chk.AutoSize = true;
+            this.mayonez_chk.Location = new System.Drawing.Point(148, 116);
+            this.mayonez_chk.Name = "mayonez_chk";
+            this.mayonez_chk.Size = new System.Drawing.Size(69, 17);
+            this.mayonez_chk.TabIndex = 13;
+            this.mayonez_chk.Text = "Mayonez";
+            this.mayonez_chk.UseVisualStyleBackColor = true;
             // 
             // tursu_chk
             // 
@@ -191,15 +162,45 @@
             this.tursu_chk.Text = "Turşu";
             this.tursu_chk.UseVisualStyleBackColor = true;
             // 
-            // mayonez_chk
+            // ketcap_chk
             // 
-            this.mayonez_chk.AutoSize = true;
-            this.mayonez_chk.Location = new System.Drawing.Point(148, 116);
-            this.mayonez_chk.Name = "mayonez_chk";
-            this.mayonez_chk.Size = new System.Drawing.Size(69, 17);
-            this.mayonez_chk.TabIndex = 13;
-            this.mayonez_chk.Text = "Mayonez";
-            this.mayonez_chk.UseVisualStyleBackColor = true;
+            this.ketcap_chk.AutoSize = true;
+            this.ketcap_chk.Location = new System.Drawing.Point(151, 64);
+            this.ketcap_chk.Name = "ketcap_chk";
+            this.ketcap_chk.Size = new System.Drawing.Size(60, 17);
+            this.ketcap_chk.TabIndex = 11;
+            this.ketcap_chk.Text = "Ketçap";
+            this.ketcap_chk.UseVisualStyleBackColor = true;
+            // 
+            // peynir_chk
+            // 
+            this.peynir_chk.AutoSize = true;
+            this.peynir_chk.Location = new System.Drawing.Point(153, 19);
+            this.peynir_chk.Name = "peynir_chk";
+            this.peynir_chk.Size = new System.Drawing.Size(55, 17);
+            this.peynir_chk.TabIndex = 10;
+            this.peynir_chk.Text = "Peynir";
+            this.peynir_chk.UseVisualStyleBackColor = true;
+            // 
+            // domates_chk
+            // 
+            this.domates_chk.AutoSize = true;
+            this.domates_chk.Location = new System.Drawing.Point(6, 64);
+            this.domates_chk.Name = "domates_chk";
+            this.domates_chk.Size = new System.Drawing.Size(68, 17);
+            this.domates_chk.TabIndex = 9;
+            this.domates_chk.Text = "Domates";
+            this.domates_chk.UseVisualStyleBackColor = true;
+            // 
+            // sogan_chk
+            // 
+            this.sogan_chk.AutoSize = true;
+            this.sogan_chk.Location = new System.Drawing.Point(6, 19);
+            this.sogan_chk.Name = "sogan_chk";
+            this.sogan_chk.Size = new System.Drawing.Size(57, 17);
+            this.sogan_chk.TabIndex = 8;
+            this.sogan_chk.Text = "Soğan";
+            this.sogan_chk.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -209,15 +210,6 @@
             this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 8;
             this.label2.Text = "Adet";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 455);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(64, 21);
-            this.comboBox1.TabIndex = 9;
-            this.comboBox1.Text = "0";
             // 
             // label3
             // 
@@ -230,7 +222,7 @@
             // 
             // btn_siparis
             // 
-            this.btn_siparis.Location = new System.Drawing.Point(438, 463);
+            this.btn_siparis.Location = new System.Drawing.Point(471, 463);
             this.btn_siparis.Name = "btn_siparis";
             this.btn_siparis.Size = new System.Drawing.Size(75, 23);
             this.btn_siparis.TabIndex = 11;
@@ -240,31 +232,47 @@
             // 
             // btn_hesap
             // 
-            this.btn_hesap.Location = new System.Drawing.Point(608, 463);
+            this.btn_hesap.Enabled = false;
+            this.btn_hesap.Location = new System.Drawing.Point(731, 463);
             this.btn_hesap.Name = "btn_hesap";
             this.btn_hesap.Size = new System.Drawing.Size(75, 23);
             this.btn_hesap.TabIndex = 12;
             this.btn_hesap.Text = "Hesap";
             this.btn_hesap.UseVisualStyleBackColor = true;
+            this.btn_hesap.Click += new System.EventHandler(this.btn_hesap_Click);
             // 
             // list_siparisler
             // 
+            this.list_siparisler.DisplayMember = "1";
             this.list_siparisler.FormattingEnabled = true;
             this.list_siparisler.Location = new System.Drawing.Point(359, 12);
             this.list_siparisler.Name = "list_siparisler";
-            this.list_siparisler.Size = new System.Drawing.Size(395, 420);
+            this.list_siparisler.Size = new System.Drawing.Size(553, 420);
             this.list_siparisler.TabIndex = 13;
+            this.list_siparisler.ValueMember = "1";
+            // 
+            // numadet
+            // 
+            this.numadet.Location = new System.Drawing.Point(82, 456);
+            this.numadet.Name = "numadet";
+            this.numadet.Size = new System.Drawing.Size(60, 20);
+            this.numadet.TabIndex = 14;
+            this.numadet.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 507);
+            this.ClientSize = new System.Drawing.Size(924, 507);
+            this.Controls.Add(this.numadet);
             this.Controls.Add(this.list_siparisler);
             this.Controls.Add(this.btn_hesap);
             this.Controls.Add(this.btn_siparis);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.radioButton3);
@@ -280,6 +288,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numadet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -302,11 +311,11 @@
         private System.Windows.Forms.CheckBox domates_chk;
         private System.Windows.Forms.CheckBox sogan_chk;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_siparis;
         private System.Windows.Forms.Button btn_hesap;
         private System.Windows.Forms.ListBox list_siparisler;
+        private System.Windows.Forms.NumericUpDown numadet;
     }
 }
 

@@ -8,3 +8,13 @@ C:\Users\TUBA.OZYURT\source\repos\Hamburger\Hamburger\obj\Debug\Hamburger.csproj
 C:\Users\TUBA.OZYURT\source\repos\Hamburger\Hamburger\obj\Debug\Hamburger.csproj.CoreCompileInputs.cache
 C:\Users\TUBA.OZYURT\source\repos\Hamburger\Hamburger\obj\Debug\Hamburger.exe
 C:\Users\TUBA.OZYURT\source\repos\Hamburger\Hamburger\obj\Debug\Hamburger.pdb
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\bin\Debug\Hamburger.exe.config
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\bin\Debug\Hamburger.exe
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\bin\Debug\Hamburger.pdb
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.csprojAssemblyReference.cache
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.Form1.resources
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.Properties.Resources.resources
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.csproj.GenerateResource.cache
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.csproj.CoreCompileInputs.cache
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.exe
+C:\Users\TUBA.OZYURT\Documents\GitHub\Smart-Pro-.Net\Hamburger\Hamburger\obj\Debug\Hamburger.pdb
